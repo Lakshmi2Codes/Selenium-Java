@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforce Suite">
+	<test name="SaleforceDataTest">
+
+		<parameter name="url" value="https://login.salesforce.com" />
+		<parameter name="username" value="lakshmi.sendmail2.13e14de33494@agentforce.com" />
+		<parameter name="password" value="Salesforce123" />
+
+		<classes>
+			<class name="assignments.week6.day2.SalesforceDataProviderTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
